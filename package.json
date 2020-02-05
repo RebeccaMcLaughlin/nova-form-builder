@@ -1,0 +1,32 @@
+{
+  "name": "nova-form-builder",
+  "version": "0.0.1",
+  "description": "Laravel Nova form builder",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RebeccaMcLaughlin/nova-form-builder.git"
+  },
+  "author": "Rebecca McLaughlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RebeccaMcLaughlin/nova-form-builder/issues"
+  },
+  "homepage": "https://github.com/RebeccaMcLaughlin/nova-form-builder#readme",
+  "dependencies": {
+    "vuedraggable": "^2.23.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.0",
+    "laravel-mix": "^4.1.4",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

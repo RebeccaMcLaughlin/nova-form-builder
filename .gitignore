@@ -1,0 +1,6 @@
+node_modules
+dist
+mix-manifest.json
+package-lock.json
+npm-debug.log
+yarn-error.log
